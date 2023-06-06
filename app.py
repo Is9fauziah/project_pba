@@ -16,7 +16,7 @@ import math
 
 
 def main():
-    st.title("Sistem ASFDGHDJSKKKDJJJ")
+    st.title("Sistem Automatic Text Summarization Menggunakan Algoritma Textrank")
     masuk_text = st.text_input("Maukkan Text")
             # create stemmer dan stopword removal
     factory = StemmerFactory() #inisialisasi objek dari kelas
