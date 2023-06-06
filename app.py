@@ -17,6 +17,11 @@ import math
 
 def main():
     st.title("Sistem Automatic Text Summarization Menggunakan Algoritma Textrank")
+    st.subheader('Kelompok 6')
+    st.text("""
+                1. Isnain Fauziah Saputra 200411100007
+                2. Dewi Imani Al Qurani 200411100014
+                3. Layla Mufah Choiriyah 200411100052""")
     masuk_text = st.text_input("Maukkan Text")
             # create stemmer dan stopword removal
     factory = StemmerFactory() #inisialisasi objek dari kelas
